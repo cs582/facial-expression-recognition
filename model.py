@@ -10,10 +10,10 @@ session = tf.compat.v1.Session(config=config)
 
 class FacialExpressionModel(object):
 
-    EMOTIONS_LIST = ["Enojo", "Disgusto",
-                     "Miedo", "Felicidad",
-                     "Neutral", "Tristeza",
-                     "Sorpresa"]
+    EMOTIONS_LIST = ["Angry", "Disgust",
+                     "Fear", "Happy",
+                     "Neutral", "Sad",
+                     "Surprise"]
 
     def __init__(self, model_json_file, model_weights_file):
         # load model from JSON file
