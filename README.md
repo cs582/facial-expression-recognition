@@ -1,5 +1,7 @@
 # Facial Expression Recognition
 
+<img src="debate.png" alt="Trump vs Biden">
+
 In this project, I built a deep learning model in Keras using Convolutional Neural Networks (CNNs) for facial expression recognition.
 
 This project also makes use of the Haar Cascade algorithm for object detection and is deployed in a website using Flask.
