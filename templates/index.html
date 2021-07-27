@@ -1,8 +1,43 @@
-<html>
-  <head>
-    <title>Face expression recognition</title>
-  </head>
-  <body>
-    <img id="bg" width=800px height=640px src="{{ url_for('video_feed') }}">
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+		<title>Face expression recognition</title>
+		<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+		<link rel="stylesheet"
+		href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+		integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+		<!--My Fonts-->
+		<link href = "https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel = "stylesheet">
+
+		<link rel = "stylesheet" href = "css/style.css">
+
+	</head>
+	<body>
+    <!--introduction -->
+    <section class = "intro" id = "home">
+      <p align = "center" class = "section__subtitle section__subtitle--intro">Facial Expression Recognition</p>
+    </section>
+
+    <!--PROJECT-->
+    <div align = "center" class = "portfolio-item-indiv">
+      <p></p>
+      	<img id="bg" width=850px height=480px src="{{ url_for('video_feed') }}">
+      </div>
+
+    <!--footer-->
+    <footer>
+    <h3 align = "center">Contact information</h3>
+      <div class = "social-list__mail" align = "center">
+        <p>E-mail:
+				<a href = "mailto:cs582@duke.edu" class = "footer__link">cs582@duke.edu</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src = "js/index.js"></script>
   </body>
+
 </html>
