@@ -24,9 +24,11 @@ The model was trained in 20 epochs and achieved an in-sample accuracy of <code>6
 
 # How to use?
 
-This algorithm can recognize and classify faceial expression on videos.
+This algorithm can recognize and classify facial expression on videos or using your webcam.
 
 To input your own file, you can simply modify the file called camera.py and replace the string "videos/F&F9_Reaction2.mp4" with the file you choose or write 0 if you want to use your webcam instead.
+
+To run it, just run <code>main.py</code> in the console.
 
 
 <i>This code was writen for my guided project at Coursera in 2020.</i>
